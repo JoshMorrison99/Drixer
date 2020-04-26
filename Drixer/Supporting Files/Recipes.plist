@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Bourbon Old Fashioned</key>
+	<dict>
+		<key>liquor</key>
+		<array>
+			<dict>
+				<key>amount</key>
+				<string>2 ounces</string>
+				<key>name</key>
+				<string>bourbon</string>
+			</dict>
+		</array>
+		<key>ingredients</key>
+		<array>
+			<dict>
+				<key>amount</key>
+				<string>1/2 tsp</string>
+				<key>name</key>
+				<string>sugar</string>
+			</dict>
+			<dict>
+				<key>amount</key>
+				<string>garnish</string>
+				<key>name</key>
+				<string>orange peel</string>
+			</dict>
+			<dict>
+				<key>amount</key>
+				<string>1 tsp</string>
+				<key>name</key>
+				<string>water</string>
+			</dict>
+		</array>
+	</dict>
+	<key>Jager Bomb</key>
+	<dict>
+		<key>ingredients</key>
+		<array>
+			<dict>
+				<key>amount</key>
+				<string>1/2 can</string>
+				<key>name</key>
+				<string>red bull</string>
+			</dict>
+		</array>
+		<key>liquor</key>
+		<array>
+			<dict>
+				<key>amount</key>
+				<string>1 ounce</string>
+				<key>name</key>
+				<string>jagermister</string>
+			</dict>
+		</array>
+	</dict>
+</dict>
+</plist>
