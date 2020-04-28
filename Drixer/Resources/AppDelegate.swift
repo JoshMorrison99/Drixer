@@ -71,7 +71,6 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     
     func preloadData(){
         print("Preload...")
-        
         let preloadedDataKey = "didPreloadData"
         
         let userDefaults = UserDefaults.standard
@@ -106,8 +105,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
                                             if(all.key == "name"){
                                                 //print("NAME")
                                                 ingredientObject.name = all.value as? String
-                                            }else if (all.key == "amount"){
-                                                ingredientObject.amount = all.value as? String
+                                            }else if (all.key == "display"){
+                                                ingredientObject.display = all.value as? String
                                             }
                                         }
                                     }
@@ -121,8 +120,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
                                             if(all.key == "name"){
                                                 //print("NAME")
                                                 liquorObject.name = all.value as? String
-                                            }else if (all.key == "amount"){
-                                                liquorObject.amount = all.value as? String
+                                            }else if (all.key == "display"){
+                                                liquorObject.display = all.value as? String
                                             }
                                         }
                                     }
@@ -205,4 +204,3 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     
 
 }
-

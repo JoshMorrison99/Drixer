@@ -2,57 +2,176 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-	<key>Bourbon Old Fashioned</key>
+	<key>Manhattan</key>
 	<dict>
+		<key>ingredients</key>
+		<array/>
 		<key>liquor</key>
 		<array>
 			<dict>
-				<key>amount</key>
-				<string>2 ounces</string>
+				<key>display</key>
+				<string>2 dashes Angostura bitters</string>
 				<key>name</key>
-				<string>bourbon</string>
-			</dict>
-		</array>
-		<key>ingredients</key>
-		<array>
-			<dict>
-				<key>amount</key>
-				<string>1/2 tsp</string>
-				<key>name</key>
-				<string>sugar</string>
+				<string>angostura bitters</string>
 			</dict>
 			<dict>
-				<key>amount</key>
-				<string>garnish</string>
+				<key>display</key>
+				<string>1 oz sweet vermouth</string>
 				<key>name</key>
-				<string>orange peel</string>
+				<string>sweet vermouth</string>
 			</dict>
 			<dict>
-				<key>amount</key>
-				<string>1 tsp</string>
+				<key>display</key>
+				<string>2 oz rye whiskey</string>
 				<key>name</key>
-				<string>water</string>
+				<string>rye whiskey</string>
 			</dict>
 		</array>
 	</dict>
-	<key>Jager Bomb</key>
+	<key>Mojito</key>
 	<dict>
 		<key>ingredients</key>
 		<array>
 			<dict>
-				<key>amount</key>
-				<string>1/2 can</string>
+				<key>display</key>
+				<string>.5 oz simple syrup</string>
 				<key>name</key>
-				<string>red bull</string>
+				<string>simple syrup</string>
+			</dict>
+			<dict>
+				<key>display</key>
+				<string>.75 oz lime juice</string>
+				<key>name</key>
+				<string>lime juice</string>
+			</dict>
+			<dict>
+				<key>display</key>
+				<string>3 mint leaves</string>
+				<key>name</key>
+				<string>mint leaves</string>
 			</dict>
 		</array>
 		<key>liquor</key>
 		<array>
 			<dict>
-				<key>amount</key>
-				<string>1 ounce</string>
+				<key>display</key>
+				<string>2 oz white rum</string>
 				<key>name</key>
-				<string>jagermister</string>
+				<string>white rum</string>
+			</dict>
+		</array>
+	</dict>
+	<key>Cosmopolitan</key>
+	<dict>
+		<key>liquor</key>
+		<array>
+			<dict>
+				<key>name</key>
+				<string>citrus vodka</string>
+				<key>display</key>
+				<string>1.5 oz citrus vodka</string>
+			</dict>
+			<dict>
+				<key>name</key>
+				<string>cointreau</string>
+				<key>display</key>
+				<string>1 oz Cointreau</string>
+			</dict>
+		</array>
+		<key>ingredients</key>
+		<array>
+			<dict>
+				<key>name</key>
+				<string>cranberry juice</string>
+				<key>display</key>
+				<string>.25 oz cranberry juice</string>
+			</dict>
+			<dict>
+				<key>name</key>
+				<string>lime juice</string>
+				<key>display</key>
+				<string>.5 oz lime juice</string>
+			</dict>
+		</array>
+	</dict>
+	<key>Margarita</key>
+	<dict>
+		<key>liquor</key>
+		<array>
+			<dict>
+				<key>name</key>
+				<string>cointreau</string>
+				<key>display</key>
+				<string>1 oz Cointreau</string>
+			</dict>
+			<dict>
+				<key>name</key>
+				<string>silver tequila</string>
+				<key>display</key>
+				<string> 2 oz silver tequila</string>
+			</dict>
+		</array>
+		<key>ingredients</key>
+		<array>
+			<dict>
+				<key>display</key>
+				<string>Salt for the rim</string>
+				<key>name</key>
+				<string>salt</string>
+			</dict>
+			<dict>
+				<key>name</key>
+				<string>lime juice</string>
+				<key>display</key>
+				<string>1 oz lime juice</string>
+			</dict>
+		</array>
+	</dict>
+	<key>Whiskey Sour</key>
+	<dict>
+		<key>liquor</key>
+		<array>
+			<dict>
+				<key>display</key>
+				<string>2 oz whiskey</string>
+				<key>name</key>
+				<string>whiskey</string>
+			</dict>
+		</array>
+		<key>ingredients</key>
+		<array>
+			<dict>
+				<key>display</key>
+				<string>1 oz lemon juice</string>
+				<key>name</key>
+				<string>lemon juice</string>
+			</dict>
+			<dict>
+				<key>display</key>
+				<string>1 tsp sugar</string>
+				<key>name</key>
+				<string>sugar</string>
+			</dict>
+		</array>
+	</dict>
+	<key>Mimosa</key>
+	<dict>
+		<key>ingredients</key>
+		<array>
+			<dict>
+				<key>display</key>
+				<string>2.5 oz orange juice</string>
+				<key>name</key>
+				<string>orange juice</string>
+			</dict>
+		</array>
+		<key>liquor</key>
+		<array>
+			<dict>
+				<key>display</key>
+				<string>2.5 oz champagne</string>
+				<key>name</key>
+				<string>champagne</string>
 			</dict>
 		</array>
 	</dict>

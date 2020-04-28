@@ -13,6 +13,7 @@
 		E757245B245369F700069929 /* Ingredients.swift in Sources */ = {isa = PBXBuildFile; fileRef = E757245A245369F700069929 /* Ingredients.swift */; };
 		E757245D24536A0200069929 /* Liquors.swift in Sources */ = {isa = PBXBuildFile; fileRef = E757245C24536A0200069929 /* Liquors.swift */; };
 		E757245F2454C4C000069929 /* IngredientsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E757245E2454C4C000069929 /* IngredientsTableViewController.swift */; };
+		E7E7D1582455EF9A0006CC09 /* FinalRecipeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7E7D1572455EF9A0006CC09 /* FinalRecipeViewController.swift */; };
 		E7EABEBA244F6BC600DFD500 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7EABEB9244F6BC600DFD500 /* AppDelegate.swift */; };
 		E7EABEBC244F6BC600DFD500 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7EABEBB244F6BC600DFD500 /* SceneDelegate.swift */; };
 		E7EABEC1244F6BC600DFD500 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E7EABEBF244F6BC600DFD500 /* Main.storyboard */; };
@@ -29,6 +30,7 @@
 		E757245A245369F700069929 /* Ingredients.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ingredients.swift; sourceTree = "<group>"; };
 		E757245C24536A0200069929 /* Liquors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Liquors.swift; sourceTree = "<group>"; };
 		E757245E2454C4C000069929 /* IngredientsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IngredientsTableViewController.swift; sourceTree = "<group>"; };
+		E7E7D1572455EF9A0006CC09 /* FinalRecipeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinalRecipeViewController.swift; sourceTree = "<group>"; };
 		E7EABEB6244F6BC600DFD500 /* Drixer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Drixer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E7EABEB9244F6BC600DFD500 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E7EABEBB244F6BC600DFD500 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -92,6 +94,7 @@
 				E7EABECA244F6BC900DFD500 /* Info.plist */,
 				E7EABEBF244F6BC600DFD500 /* Main.storyboard */,
 				E7EABEC2244F6BC600DFD500 /* Drixer.xcdatamodeld */,
+				E7E7D1572455EF9A0006CC09 /* FinalRecipeViewController.swift */,
 				E757244E2453293800069929 /* RecipeOptionsTableViewController.swift */,
 				E757245E2454C4C000069929 /* IngredientsTableViewController.swift */,
 				E7EABEDC244F90F700DFD500 /* SelectorTableViewController.swift */,
@@ -185,6 +188,7 @@
 				E7EABEDD244F90F700DFD500 /* SelectorTableViewController.swift in Sources */,
 				E7EABEBC244F6BC600DFD500 /* SceneDelegate.swift in Sources */,
 				E757245D24536A0200069929 /* Liquors.swift in Sources */,
+				E7E7D1582455EF9A0006CC09 /* FinalRecipeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

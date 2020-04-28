@@ -16,28 +16,47 @@ class SelectorTableViewController: UITableViewController {
     
     var avaliableIngredients: [String] = []
     var avaliableLiquors: [String] = []
+    
+    let cellSpacingHeight: CGFloat = 5
+    
+    
+    @IBOutlet weak var nextBtn: UIButton! {
+        didSet{
+            nextBtn.backgroundColor = UIColor(displayP3Red: 0, green: 1, blue: 0, alpha: 0.7)
+            nextBtn.tintColor = UIColor.black
+        }
+    }
+    
+    
 
     override func viewDidLoad() {
         super.viewDidLoad()
         self.title = "Select Liquors"
         
         var returnedIngredients:[Ingredients] = []
-        returnedIngredients = Recipe.getAllIngredients()
+        returnedIngredients = Ingredients.getAllIngredients()
         
         for each in returnedIngredients {
-            if each.name != nil {
-                avaliableIngredients.append(each.name!)
+            if each.name != nil{
+                if(avaliableIngredients.contains(each.name!) == false){
+                    avaliableIngredients.append(each.name!.lowercased())
+                }
             }
         }
         
         
         var returnedLiquors:[Liquors] = []
-        returnedLiquors = Recipe.getAllLiquors()
-        for each in returnedLiquors {
+        returnedLiquors = Liquors.getAllLiquors()
+        for each in returnedLiquors{
             if each.name != nil {
-                avaliableLiquors.append(each.name!)
+                if(avaliableLiquors.contains(each.name!) == false){
+                    avaliableLiquors.append(each.name!.lowercased())
+                }
             }
         }
+        
+        print(returnedLiquors)
+        print(returnedIngredients)
         
         
 
@@ -62,28 +81,40 @@ class SelectorTableViewController: UITableViewController {
             return
         }
         let currentCell = tableView.cellForRow(at: indexPath)
-        if let liquorSelected = currentCell?.textLabel!.text {
+        if let liquorSelected = currentCell?.textLabel!.text?.lowercased() {
             if Recipe.userSelectedLiquors.contains(liquorSelected){
                 Recipe.userSelectedLiquors.remove(at: Recipe.userSelectedLiquors.firstIndex(of: liquorSelected)!)
-                currentCell?.backgroundColor = UIColor.white
+                currentCell?.cellStyle()
             }else{
                 Recipe.userSelectedLiquors.append(liquorSelected)
-                currentCell?.backgroundColor = UIColor.green
+                currentCell?.cellStyleClicked()
             }
         }
-
     }
-
+    
+    override func numberOfSections(in tableView: UITableView) -> Int {
+        return avaliableLiquors.count
+    }
+    
+    // Set the spacing between sections
+    override func tableView(_ tableView: UITableView, heightForHeaderInSection section: Int) -> CGFloat {
+        return cellSpacingHeight
+    }
+    
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         // #warning Incomplete implementation, return the number of rows
-        return avaliableLiquors.count
+        return 1
     }
 
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "liquorCell", for: indexPath)
 
         // Configure the cell...
-        cell.textLabel?.text = self.avaliableLiquors[indexPath.item]
+        cell.textLabel?.text = self.avaliableLiquors[indexPath.section].lowercased().capitalized
+        
+        // add border and color
+        cell.cellStyle()
+        
         return cell
     }
     
@@ -96,4 +127,27 @@ class SelectorTableViewController: UITableViewController {
         }
     }
 
+}
+
+extension UITableViewCell {
+    
+    func cellStyle(){
+        
+        backgroundColor = UIColor.white
+//        layer.borderColor = UIColor.black.cgColor
+//        layer.borderWidth = 0.5
+//        layer.cornerRadius = 8
+//        clipsToBounds = true
+       
+
+    }
+    
+    func cellStyleClicked(){
+        
+        backgroundColor = UIColor.init(red: 0, green: 1, blue: 0, alpha: 0.3)
+//        layer.borderColor = UIColor.black.cgColor
+//        layer.borderWidth = 0.5
+//        layer.cornerRadius = 8
+//        clipsToBounds = true
+    }
 }
