@@ -22,8 +22,8 @@ class SelectorTableViewController: UITableViewController {
     
     @IBOutlet weak var nextBtn: UIButton! {
         didSet{
-            nextBtn.backgroundColor = UIColor(displayP3Red: 0, green: 1, blue: 0, alpha: 0.7)
-            nextBtn.tintColor = UIColor.black
+            nextBtn.backgroundColor = UIColor.systemOrange
+            nextBtn.tintColor = UIColor.white
         }
     }
     
@@ -55,27 +55,11 @@ class SelectorTableViewController: UITableViewController {
             }
         }
         
-        print(returnedLiquors)
-        print(returnedIngredients)
-        
-        
-
-        // Uncomment the following line to preserve selection between presentations
-        // self.clearsSelectionOnViewWillAppear = false
-
-        // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
-        // self.navigationItem.rightBarButtonItem = self.editButtonItem
     }
     
     
     
     // MARK: - Table view data source
-
-//    override func numberOfSections(in tableView: UITableView) -> Int {
-//        // #warning Incomplete implementation, return the number of sections
-//        return avaliableLiquors.count
-//    }
-    
     override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         guard let indexPath = tableView.indexPathForSelectedRow else {
             return
@@ -112,8 +96,13 @@ class SelectorTableViewController: UITableViewController {
         // Configure the cell...
         cell.textLabel?.text = self.avaliableLiquors[indexPath.section].lowercased().capitalized
         
-        // add border and color
-        cell.cellStyle()
+        if let liquorSelected = cell.textLabel!.text?.lowercased() {
+            if Recipe.userSelectedLiquors.contains(liquorSelected){
+                cell.cellStyleClicked()
+            }else{
+                cell.cellStyle()
+            }
+        }
         
         return cell
     }
@@ -132,22 +121,11 @@ class SelectorTableViewController: UITableViewController {
 extension UITableViewCell {
     
     func cellStyle(){
-        
         backgroundColor = UIColor.white
-//        layer.borderColor = UIColor.black.cgColor
-//        layer.borderWidth = 0.5
-//        layer.cornerRadius = 8
-//        clipsToBounds = true
-       
-
     }
     
     func cellStyleClicked(){
         
-        backgroundColor = UIColor.init(red: 0, green: 1, blue: 0, alpha: 0.3)
-//        layer.borderColor = UIColor.black.cgColor
-//        layer.borderWidth = 0.5
-//        layer.cornerRadius = 8
-//        clipsToBounds = true
+        backgroundColor = UIColor.systemOrange
     }
 }

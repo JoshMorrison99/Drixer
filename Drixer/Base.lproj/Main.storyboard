@@ -31,6 +31,20 @@
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="3l8-bT-Ld1" id="BjT-ba-oum">
                                     <rect key="frame" x="0.0" y="0.0" width="414" height="43.5"/>
                                     <autoresizingMask key="autoresizingMask"/>
+                                    <subviews>
+                                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="fgS-l4-8Ce">
+                                            <rect key="frame" x="0.0" y="-43" width="5" height="129.5"/>
+                                            <color key="backgroundColor" systemColor="systemOrangeColor" red="1" green="0.58431372550000005" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <constraints>
+                                                <constraint firstAttribute="width" constant="5" id="aHu-Xr-jHB"/>
+                                            </constraints>
+                                        </view>
+                                    </subviews>
+                                    <constraints>
+                                        <constraint firstItem="fgS-l4-8Ce" firstAttribute="top" secondItem="BjT-ba-oum" secondAttribute="topMargin" constant="-54" id="LeN-3q-w6E"/>
+                                        <constraint firstItem="fgS-l4-8Ce" firstAttribute="centerY" secondItem="BjT-ba-oum" secondAttribute="centerY" id="UE2-Ea-DW6"/>
+                                        <constraint firstItem="fgS-l4-8Ce" firstAttribute="leading" secondItem="BjT-ba-oum" secondAttribute="leading" id="lhL-Nf-ZuF"/>
+                                    </constraints>
                                 </tableViewCellContentView>
                             </tableViewCell>
                         </prototypes>
@@ -77,6 +91,20 @@
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="Pez-fF-gQD" id="6Rl-Ko-UeJ">
                                     <rect key="frame" x="0.0" y="0.0" width="414" height="43.5"/>
                                     <autoresizingMask key="autoresizingMask"/>
+                                    <subviews>
+                                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="WU6-HY-zYb">
+                                            <rect key="frame" x="0.0" y="-43" width="5" height="129.5"/>
+                                            <color key="backgroundColor" systemColor="systemOrangeColor" red="1" green="0.58431372550000005" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <constraints>
+                                                <constraint firstAttribute="width" constant="5" id="bre-xg-za3"/>
+                                            </constraints>
+                                        </view>
+                                    </subviews>
+                                    <constraints>
+                                        <constraint firstItem="WU6-HY-zYb" firstAttribute="leading" secondItem="6Rl-Ko-UeJ" secondAttribute="leading" id="RyE-d3-9Yg"/>
+                                        <constraint firstItem="WU6-HY-zYb" firstAttribute="top" secondItem="6Rl-Ko-UeJ" secondAttribute="topMargin" constant="-54" id="TFm-qo-aAw"/>
+                                        <constraint firstItem="WU6-HY-zYb" firstAttribute="centerY" secondItem="6Rl-Ko-UeJ" secondAttribute="centerY" id="lBr-A9-1sS"/>
+                                    </constraints>
                                 </tableViewCellContentView>
                             </tableViewCell>
                         </prototypes>
@@ -109,6 +137,20 @@
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="Uzd-Ax-F6Z" id="h0q-Ur-vzZ">
                                     <rect key="frame" x="0.0" y="0.0" width="414" height="43.5"/>
                                     <autoresizingMask key="autoresizingMask"/>
+                                    <subviews>
+                                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="VWK-0x-PhQ">
+                                            <rect key="frame" x="0.0" y="-43" width="5" height="129.5"/>
+                                            <color key="backgroundColor" systemColor="systemOrangeColor" red="1" green="0.58431372550000005" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <constraints>
+                                                <constraint firstAttribute="width" constant="5" id="S6R-Ld-AIH"/>
+                                            </constraints>
+                                        </view>
+                                    </subviews>
+                                    <constraints>
+                                        <constraint firstItem="VWK-0x-PhQ" firstAttribute="top" secondItem="h0q-Ur-vzZ" secondAttribute="topMargin" constant="-54" id="IcY-bq-UgL"/>
+                                        <constraint firstItem="VWK-0x-PhQ" firstAttribute="centerY" secondItem="h0q-Ur-vzZ" secondAttribute="centerY" id="WhG-Un-Xgm"/>
+                                        <constraint firstItem="VWK-0x-PhQ" firstAttribute="leading" secondItem="h0q-Ur-vzZ" secondAttribute="leading" id="mfS-PL-Cah"/>
+                                    </constraints>
                                 </tableViewCellContentView>
                             </tableViewCell>
                         </prototypes>
@@ -144,13 +186,13 @@
                                         </constraints>
                                     </imageView>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Ingredients:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9zQ-5H-Dq0">
-                                        <rect key="frame" x="0.0" y="200" width="374" height="26.5"/>
-                                        <fontDescription key="fontDescription" style="UICTFontTextStyleTitle2"/>
+                                        <rect key="frame" x="0.0" y="200" width="374" height="33.5"/>
+                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="28"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="8kb-nM-Z1m">
-                                        <rect key="frame" x="0.0" y="226.5" width="374" height="507.5"/>
+                                        <rect key="frame" x="0.0" y="233.5" width="374" height="500.5"/>
                                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                                         <prototypes>
                                             <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="item" id="eDv-Rr-jMe">
@@ -159,6 +201,20 @@
                                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="eDv-Rr-jMe" id="m1i-Yt-xVF">
                                                     <rect key="frame" x="0.0" y="0.0" width="374" height="43.5"/>
                                                     <autoresizingMask key="autoresizingMask"/>
+                                                    <subviews>
+                                                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ahF-mc-7PZ">
+                                                            <rect key="frame" x="0.0" y="-42" width="5" height="127.5"/>
+                                                            <color key="backgroundColor" systemColor="systemOrangeColor" red="1" green="0.58431372550000005" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                            <constraints>
+                                                                <constraint firstAttribute="width" constant="5" id="wP1-0F-TId"/>
+                                                            </constraints>
+                                                        </view>
+                                                    </subviews>
+                                                    <constraints>
+                                                        <constraint firstItem="ahF-mc-7PZ" firstAttribute="centerY" secondItem="m1i-Yt-xVF" secondAttribute="centerY" id="PHb-ld-P9J"/>
+                                                        <constraint firstItem="ahF-mc-7PZ" firstAttribute="top" secondItem="m1i-Yt-xVF" secondAttribute="topMargin" constant="-53" id="UcO-Yc-Zos"/>
+                                                        <constraint firstItem="ahF-mc-7PZ" firstAttribute="leading" secondItem="m1i-Yt-xVF" secondAttribute="leading" id="q1g-CE-VDS"/>
+                                                    </constraints>
                                                 </tableViewCellContentView>
                                             </tableViewCell>
                                         </prototypes>

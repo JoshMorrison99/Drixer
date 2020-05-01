@@ -2,6 +2,373 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+	<key>Daiquiri</key>
+	<dict>
+		<key>liquor</key>
+		<array>
+			<dict>
+				<key>display</key>
+				<string>2 oz light rum</string>
+				<key>name</key>
+				<string>light rum</string>
+			</dict>
+		</array>
+		<key>ingredients</key>
+		<array>
+			<dict>
+				<key>display</key>
+				<string>1 oz simple syrup</string>
+				<key>name</key>
+				<string>simple syrup</string>
+			</dict>
+			<dict>
+				<key>display</key>
+				<string>1 oz lime juice</string>
+				<key>name</key>
+				<string>lime juice</string>
+			</dict>
+		</array>
+	</dict>
+	<key>French 75</key>
+	<dict>
+		<key>liquor</key>
+		<array>
+			<dict>
+				<key>display</key>
+				<string>Champagne</string>
+				<key>name</key>
+				<string>champagne</string>
+			</dict>
+			<dict>
+				<key>display</key>
+				<string>2 oz gin</string>
+				<key>name</key>
+				<string>gin</string>
+			</dict>
+		</array>
+		<key>ingredients</key>
+		<array>
+			<dict>
+				<key>display</key>
+				<string>2 dashes simple syrup</string>
+				<key>name</key>
+				<string>simple syrup</string>
+			</dict>
+			<dict>
+				<key>display</key>
+				<string>.5 oz lemon juice</string>
+				<key>name</key>
+				<string>lemon juice</string>
+			</dict>
+		</array>
+	</dict>
+	<key>Gimlet</key>
+	<dict>
+		<key>ingredients</key>
+		<array>
+			<dict>
+				<key>display</key>
+				<string>.75 oz simple syrup</string>
+				<key>name</key>
+				<string>simple syrup</string>
+			</dict>
+			<dict>
+				<key>display</key>
+				<string>.75 oz lime juice</string>
+				<key>name</key>
+				<string>lime juice</string>
+			</dict>
+		</array>
+		<key>liquor</key>
+		<array>
+			<dict>
+				<key>display</key>
+				<string>2 oz vodka</string>
+				<key>name</key>
+				<string>vodka</string>
+			</dict>
+		</array>
+	</dict>
+	<key>Sex on the Beach</key>
+	<dict>
+		<key>liquor</key>
+		<array>
+			<dict>
+				<key>display</key>
+				<string>1 1/2 oz Vodka</string>
+				<key>name</key>
+				<string>vodka</string>
+			</dict>
+			<dict>
+				<key>display</key>
+				<string>1/2 oz Peach schnapps</string>
+				<key>name</key>
+				<string>peach schnapps</string>
+			</dict>
+		</array>
+		<key>ingredients</key>
+		<array>
+			<dict>
+				<key>display</key>
+				<string>1 1/2 oz orange juice</string>
+				<key>name</key>
+				<string>orange juice</string>
+			</dict>
+			<dict>
+				<key>display</key>
+				<string>1 1/2 oz Cranberry juice</string>
+				<key>name</key>
+				<string>cranberry juice</string>
+			</dict>
+		</array>
+	</dict>
+	<key>Piña Colada</key>
+	<dict>
+		<key>liquor</key>
+		<array>
+			<dict>
+				<key>display</key>
+				<string>2 oz Light rum</string>
+				<key>name</key>
+				<string>light rum</string>
+			</dict>
+		</array>
+		<key>ingredients</key>
+		<array>
+			<dict>
+				<key>name</key>
+				<string>lime juice</string>
+				<key>display</key>
+				<string>1/2 oz Fresh lime juice</string>
+			</dict>
+			<dict>
+				<key>display</key>
+				<string>1 1/2 oz Pineapple juice</string>
+				<key>name</key>
+				<string>pineapple juice</string>
+			</dict>
+			<dict>
+				<key>display</key>
+				<string>1 1/2 oz Cream of coconut</string>
+				<key>name</key>
+				<string>cream of coconut</string>
+			</dict>
+		</array>
+	</dict>
+	<key>Rum Punch</key>
+	<dict>
+		<key>liquor</key>
+		<array>
+			<dict>
+				<key>name</key>
+				<string>light rum</string>
+				<key>display</key>
+				<string>1 1/4 oz Light rum</string>
+			</dict>
+			<dict>
+				<key>display</key>
+				<string>1 1/4 oz Dark rum</string>
+				<key>name</key>
+				<string>dark rum</string>
+			</dict>
+		</array>
+		<key>ingredients</key>
+		<array>
+			<dict>
+				<key>display</key>
+				<string>1/4 oz Grenadine</string>
+				<key>name</key>
+				<string>grenadine</string>
+			</dict>
+			<dict>
+				<key>name</key>
+				<string>lime juice</string>
+				<key>display</key>
+				<string>1/4 oz Fresh lime juice</string>
+			</dict>
+			<dict>
+				<key>name</key>
+				<string>orange juice</string>
+				<key>display</key>
+				<string>1 oz Orange juice</string>
+			</dict>
+			<dict>
+				<key>display</key>
+				<string>2 oz Pineapple juice</string>
+				<key>name</key>
+				<string>pineapple juice</string>
+			</dict>
+		</array>
+	</dict>
+	<key>Aperol Spritz</key>
+	<dict>
+		<key>ingredients</key>
+		<array>
+			<dict>
+				<key>display</key>
+				<string>1 ounce soda water</string>
+				<key>name</key>
+				<string>soda water</string>
+			</dict>
+		</array>
+		<key>liquor</key>
+		<array>
+			<dict>
+				<key>display</key>
+				<string>2 ounces Aperol</string>
+				<key>name</key>
+				<string>aperol</string>
+			</dict>
+			<dict>
+				<key>display</key>
+				<string>3 ounces prosecco</string>
+				<key>name</key>
+				<string>prosecco</string>
+			</dict>
+		</array>
+	</dict>
+	<key>Dry Martini</key>
+	<dict>
+		<key>liquor</key>
+		<array>
+			<dict>
+				<key>display</key>
+				<string>1/2 oz Dry vermouth</string>
+				<key>name</key>
+				<string>dry vermouth</string>
+			</dict>
+			<dict>
+				<key>display</key>
+				<string>2 1/2 oz Gin</string>
+				<key>name</key>
+				<string>gin</string>
+			</dict>
+			<dict>
+				<key>display</key>
+				<string>1 dash Orange bitters
+</string>
+				<key>name</key>
+				<string>orange bitters</string>
+			</dict>
+		</array>
+		<key>ingredients</key>
+		<array/>
+	</dict>
+	<key>Painkiller</key>
+	<dict>
+		<key>liquor</key>
+		<array>
+			<dict>
+				<key>display</key>
+				<string>2 oz Pusser&apos;s rum</string>
+				<key>name</key>
+				<string>pusser&apos;s rum</string>
+			</dict>
+		</array>
+		<key>ingredients</key>
+		<array>
+			<dict>
+				<key>display</key>
+				<string>1 oz Cream of coconut</string>
+				<key>name</key>
+				<string>cream of coconut</string>
+			</dict>
+			<dict>
+				<key>display</key>
+				<string>1 oz Orange juice</string>
+				<key>name</key>
+				<string>orange juice</string>
+			</dict>
+			<dict>
+				<key>display</key>
+				<string>4 oz Pineapple juice</string>
+				<key>name</key>
+				<string>pineapple juice</string>
+			</dict>
+		</array>
+	</dict>
+	<key>White Russian</key>
+	<dict>
+		<key>ingredients</key>
+		<array>
+			<dict>
+				<key>display</key>
+				<string>1 splash Heavy cream</string>
+				<key>name</key>
+				<string>Heavy cream</string>
+			</dict>
+		</array>
+		<key>liquor</key>
+		<array>
+			<dict>
+				<key>display</key>
+				<string>1 oz Kahlúa</string>
+				<key>name</key>
+				<string>kahlúa</string>
+			</dict>
+			<dict>
+				<key>display</key>
+				<string>2 oz Vodka</string>
+				<key>name</key>
+				<string>vodka</string>
+			</dict>
+		</array>
+	</dict>
+	<key>Negroni</key>
+	<dict>
+		<key>ingredients</key>
+		<array>
+			<dict/>
+		</array>
+		<key>liquor</key>
+		<array>
+			<dict>
+				<key>display</key>
+				<string>1 ounce sweet vermouth</string>
+				<key>name</key>
+				<string>sweet vermouth</string>
+			</dict>
+			<dict>
+				<key>display</key>
+				<string>1 ounce Campari</string>
+				<key>name</key>
+				<string>campari</string>
+			</dict>
+			<dict>
+				<key>display</key>
+				<string>1 ounce gin</string>
+				<key>name</key>
+				<string>gin</string>
+			</dict>
+		</array>
+	</dict>
+	<key>Tequila Sunrise</key>
+	<dict>
+		<key>liquor</key>
+		<array>
+			<dict>
+				<key>display</key>
+				<string>2 oz Blanco tequila</string>
+				<key>name</key>
+				<string>blanco tequila</string>
+			</dict>
+		</array>
+		<key>ingredients</key>
+		<array>
+			<dict>
+				<key>display</key>
+				<string>1/4 oz Grenadine</string>
+				<key>name</key>
+				<string>grenadine</string>
+			</dict>
+			<dict>
+				<key>display</key>
+				<string>4 oz Fresh orange juice</string>
+				<key>name</key>
+				<string>orange juice</string>
+			</dict>
+		</array>
+	</dict>
 	<key>Manhattan</key>
 	<dict>
 		<key>ingredients</key>

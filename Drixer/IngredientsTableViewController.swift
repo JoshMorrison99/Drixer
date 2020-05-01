@@ -17,8 +17,8 @@ class IngredientsTableViewController: UITableViewController {
     
     @IBOutlet weak var nextBtn: UIButton!{
         didSet{
-            nextBtn.backgroundColor = UIColor(displayP3Red: 0, green: 1, blue: 0, alpha: 0.5)
-            nextBtn.tintColor = UIColor.black
+            nextBtn.backgroundColor = UIColor.systemOrange
+            nextBtn.tintColor = UIColor.white
         }
     }
     
