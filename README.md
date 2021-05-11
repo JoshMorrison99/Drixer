@@ -1,7 +1,7 @@
 # Drixer
 
 #### Find new alcoholic beverages with Drixer 
-![alt text](https://i.gyazo.com/97141596aa3abc94dfd2452421aa0203.png)
+![alt text](https://drive.google.com/file/d/1y3cvuaoFsk0Bxcb9V11ShsuXJUEivuSo/view?usp=sharing)
 
 #### Select the alcohol
 ![alt text](https://i.gyazo.com/34fc23d39311b17e236f373f7d0a272c.png)
